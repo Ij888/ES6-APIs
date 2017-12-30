@@ -1,4 +1,5 @@
 //promises
+'use strict';
 
 readFilePromisified('config.json')
 .then(function (text) { // (A)
